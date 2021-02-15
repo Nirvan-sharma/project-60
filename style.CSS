@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-variant: small-caps;
+    word-spacing: 10px;
+    font-size: 40px;
+}
+
+#contact{
+    background-color: cyan;
+    text-align: center;
+}
+
+#work{
+    background-color: teal;
+    text-align: center;
+}
+
+#author{
+    background-color: salmon;
+    text-align: center;
+}
+
+#book{
+    background-color: lime;
+    text-align: center;
+}
+
+#video{
+    background-color: gold;
+    text-align: center;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+img{
+    transition: transform(.2s);
+    width: 100px;
+}
